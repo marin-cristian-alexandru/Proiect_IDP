@@ -1,4 +1,4 @@
-# Proiect_IDP
+# Project_IDP
     Marin Cristian-Alexandru, 343C1
 
 Football players transfers aplication (mini Transfermarkt)
