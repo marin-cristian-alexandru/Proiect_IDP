@@ -27,5 +27,5 @@ Football players transfers aplication (mini Transfermarkt)
 
 How the servicies are comunicating is presented below:
 
-![](https://github.com/marin-cristian-alexandru/Proiect_IDP/blob/master/pictures/IDP%20flowchart.png | =1920x1080) 
+![](https://github.com/marin-cristian-alexandru/Proiect_IDP/blob/master/pictures/IDP%20flowchart.png) 
 
