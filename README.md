@@ -17,11 +17,11 @@ Football players transfers aplication (mini Transfermarkt)
 
 ### Services
 
-**1. Client implemented in Python**
-**2. Server implemented with Flask in Python**
-**3. InfluxDB Timesptamp Database**
-**4. Database administrator implemented in Python**
-**5. Monitoring service Grafana**
+#### **1. Client implemented in Python**
+#### **2. Server implemented with Flask in Python**
+#### **3. InfluxDB Timesptamp Database**
+#### **4. Database administrator implemented in Python**
+#### **5. Monitoring service Grafana**
 
 ## Flow chart
 
