@@ -1,0 +1,6 @@
+to_run_etapa1:
+in directorul server:
+
+docker build -t server .
+docker run -ti --net host server
+
