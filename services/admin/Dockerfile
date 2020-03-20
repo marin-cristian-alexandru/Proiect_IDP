@@ -1,6 +1,6 @@
 FROM python:3.6
 COPY requirements.txt /tmp
-ADD server.py /
+ADD dbadmin.py /
 RUN pip install -r /tmp/requirements.txt
-EXPOSE 5000
-CMD ["python3", "server.py"]
+CMD ["python3", "dbadmin.py"]
+
