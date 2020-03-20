@@ -10,7 +10,7 @@ def sell_player():
     price = int(input("Suma de bani (in milioane de euro) pe care o doriti pentru a primi o oferta: "))
     actual_team = log_team_name
 
-    URL = "http://localhost:5000/sell_player?player_name=" + player_name + "&age=" + str(age) + \
+    URL = "http://server:5000/sell_player?player_name=" + player_name + "&age=" + str(age) + \
           "&ttype=" + ttype + "&value=" + str(value) + "&contract_l=" + str(contract_l) + \
           "&price=" + str(price) + "&actual_team=" + actual_team
     response = requests.get(URL)
@@ -33,7 +33,7 @@ def buy_player():
     price = int(input("Suma de bani (in milioane de euro) pe care o oferiti: "))
     new_team = log_team_name  # bring the player to this team
 
-    URL = "http://localhost:5000/buy_player?player_name=" + player_name + "&age=" + str(age) + \
+    URL = "http://server:5000/buy_player?player_name=" + player_name + "&age=" + str(age) + \
           "&ttype=" + ttype + "&value=" + str(value) + "&wage=" + str(wage) + "&contract_l=" + str(contract_l) + \
           "&price=" + str(price) + "&actual_team=" + actual_team + "&new_team=" + new_team
 
@@ -57,7 +57,7 @@ def loan_player():
     contract_l = int(input("Introduceti cati ani de contract oferiti jucatorului(1/2): "))
     new_team = log_team_name  # bring the player to this team
 
-    URL = "http://localhost:5000/loan_player?player_name=" + player_name + "&age=" + str(age) + \
+    URL = "http://server:5000/loan_player?player_name=" + player_name + "&age=" + str(age) + \
           "&ttype=" + ttype + "&value=" + str(value) + "&wage_percent=" + str(wage_percent) + \
           "&contract_l=" + str(contract_l) + "&actual_team=" + actual_team + "&new_team=" + new_team
 

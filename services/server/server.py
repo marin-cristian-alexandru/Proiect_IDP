@@ -21,7 +21,7 @@ def add_in_db(addable_dict, ttype):
 
 
 # before listening to Flask requests, the server should create the influx DB
-cliIDB = InfluxDBClient(host='localhost', port=8086)
+cliIDB = InfluxDBClient(host='influxdb', port=8086)
 
 cliIDB.create_database('TransfermarkT')
 # show the databases

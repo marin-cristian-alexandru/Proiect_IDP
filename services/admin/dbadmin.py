@@ -40,7 +40,7 @@ def drop_transfers():
 adminOperations = {1: show_type, 2: delete_type, 3: show_database, 4: drop_transfers}
 
 # before listening to Flask requests, the server should create the influx DB
-cliIDB = InfluxDBClient(host='localhost', port=8086)
+cliIDB = InfluxDBClient(host='influxdb', port=8086)
 
 # show the databases
 # print(cliIDB.get_list_database())
