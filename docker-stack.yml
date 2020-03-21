@@ -61,10 +61,6 @@ services:
     hostname: admin
     networks:
       - dbconnect
-    deploy:
-      replicas: 1
-      restart_policy:
-        condition: on-failure
     depends_on:
       - influxdb
       - server
@@ -74,10 +70,6 @@ services:
     hostname: client
     networks:
       - backend
-    deploy:
-      replicas: 2
-      restart_policy:
-        condition: on-failure
     depends_on:
       - server
     
