@@ -78,8 +78,10 @@ networks:
     driver: overlay
   backend:
     driver: overlay
+    attachable: true
   dbconnect:
     driver: overlay
+    attachable: true
 
 volumes:
     db_data: {}
