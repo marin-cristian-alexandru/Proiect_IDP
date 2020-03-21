@@ -36,18 +36,6 @@ cliIDB.create_retention_policy('unlimited', 'INF', '1', shard_duration='20w')
 # to drop a database
 # client.drop_database('TransfermarkT')
 
-
-addable_dict = {}
-addable_dict['player_name'] = "Messi"
-addable_dict['age'] = 35
-ttype = "transfer_listed"
-addable_dict['value'] = 100
-addable_dict['contract_l'] = 2
-addable_dict['price'] = 120
-addable_dict['actual_team'] = "Barcelona"
-
-add_in_db(addable_dict, ttype)
-
 app = Flask(__name__)
 
 

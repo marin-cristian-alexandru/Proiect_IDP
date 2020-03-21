@@ -58,8 +58,9 @@ docker stack deploy -c docker-stack.yml tmkt
 
 Grafana:
 -acces la ip master:3000 (admin:proiectidp)
-cand configurezi influx (ip http://master:8086; browser; TransfermarkT)
+cand configurezi influx (ip http://ipmaster:8086; browser; TransfermarkT)
 
+!!!Nu te speria daca nu-ti apar datele. Trebuie sa scoti toate capurile default din grafana si sa selectezi measurement pt a stii ce puncte sa iei, apoi dai frumos tabel pt sortare.
 
 Pornire separata client si admin pe swarm:
 sudo docker container run -ti --net tmkt_backend alexmarin88/idp_project:client (unde tmkt este stack-ul de servicii)
