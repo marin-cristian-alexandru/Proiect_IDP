@@ -65,6 +65,6 @@ cand configurezi influx (ip http://ipmaster:8086; browser; TransfermarkT)
 Pornire separata client si admin pe swarm:
 sudo docker container run -ti --net tmkt_backend alexmarin88/idp_project:client (unde tmkt este stack-ul de servicii)
 
-sudo docker container run -ti --net tmkt_dbconnect alexmarin88/idp_project:server
+!optional!sudo docker container run -ti --net tmkt_dbconnect alexmarin88/idp_project:server
 
 sudo docker container run -ti --net tmkt_dbconnect alexmarin88/idp_project:admin (unde tmkt este stack-ul de servicii)
