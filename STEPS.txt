@@ -68,3 +68,14 @@ sudo docker container run -ti --net tmkt_backend alexmarin88/idp_project:client 
 !optional!sudo docker container run -ti --net tmkt_dbconnect alexmarin88/idp_project:server
 
 sudo docker container run -ti --net tmkt_dbconnect alexmarin88/idp_project:admin (unde tmkt este stack-ul de servicii)
+
+
+
+Pt Bonus: Doua instante de EC2:
+(doar la prezentare intrucat masinile stau pe stop ca sa nu consume si vor fi pornite doar atunci)
+(dns-ul difera dupa adresa publica diferita la fiecare pornire de containere)
+Username instante ssh putty: ubuntu
+-instalare docker
+-creare swarm doua noduri + !!add labels on master for grafana and influxdb
+
+Rulare si accesare din 
