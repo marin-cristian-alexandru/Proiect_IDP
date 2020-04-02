@@ -92,3 +92,4 @@ while (True):
         clientOperations[input_code]()
 
 print("Multumim ca ati folosit serviciul TransfermarkT pentru a va actualiza situatia sportivilor!\n")
+
